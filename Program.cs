@@ -46,6 +46,19 @@ namespace SuperHeroesLesson1
             Console.WriteLine($"I am a {MySuperHero2.Universe} Super Hero my name is {MySuperHero2.HeroName}!");
             Console.WriteLine($"My powers are {MySuperHero2.Power}");
             Console.WriteLine($"My Weakness is the {MySuperHero2.Weakness}");
+            Console.WriteLine(MySuperHero2.ToString());
+
+
+            SuperHero MySuperHero3 = new SuperHero();
+            MySuperHero3.HeroName = "Iron Man";
+            MySuperHero3.Power = "Flying";
+            MySuperHero3.Weakness = "Magnets";
+            MySuperHero3.Universe = "Marvel";
+
+         
+            Console.WriteLine(MySuperHero3.ToString());
+
+
 
 
 

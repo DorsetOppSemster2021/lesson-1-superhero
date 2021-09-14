@@ -18,7 +18,16 @@ namespace SuperHeroesLesson1
         public string Weakness { get; set; }
         public string Power { get; set; }
 
-        
+        public override string ToString()
+        {
+            string message = $"I am a {Universe} Super Hero my name is {HeroName}!. ";
+            message += $"My powers are {Power}. ";
+            message += $"My Weakness is the {Weakness}. ";
+
+
+
+            return message;
+        }
 
     }
 }
